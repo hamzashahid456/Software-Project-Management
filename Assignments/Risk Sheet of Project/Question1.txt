@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+void NumberofPrint(int num){
+    string word;
+    for(int i=1; i<= num; i++){
+    cin>>word;
+    cout<<"Hello "<<word<<" !"<<endl;
+}
+}
+int main() {
+ int number;
+ cin>>number;
+ NumberofPrint(number);
+}
